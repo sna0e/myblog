@@ -1,0 +1,18 @@
+.components_container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-right: 320px;
+}
+
+.divi{
+    display: flex;
+    justify-content: center;
+    width: 740px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.outline_box {
+    display: flex;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: solid;
+    width: 550px;
+    height: 560px;
+    border-width: 1px;
+
+    margin-left: 5px;
+
+}

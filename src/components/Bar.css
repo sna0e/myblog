@@ -1,0 +1,56 @@
+.container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: solid;
+    width: 180px;
+    height: 560px;
+    align-items: center;
+    border-width: 1px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.name {
+    display: flex;
+    flex: left;
+    margin-right: 100px;
+}
+
+.profile_img {
+    display: flex;
+    border-radius: 3px;
+    width: 150px;
+    height: 220px;
+    margin: 15px auto 10px auto;
+}
+
+.edit_profile {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-left: 80px ;
+    font-size: 10px;
+}
+
+.divHr {
+    margin-top: 40px;
+    width: 150px;
+    size: 0px;
+    color: gray;
+}
+
+.menu {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.menu li {
+    margin-bottom: 24px;
+    list-style: none;
+    border-bottom: 1px;
+    border-color: gray;
+    border-width: 1px;
+}
