@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# My Blog with React
 
 This is my blog with react

@@ -5,14 +5,14 @@ import Bar from "../components/Bar";
 import MyColorComponent from "../components/MyColorComponent";
 import "./Style.css";
 
-function MyColor() {
+function MyColor({userObj}) {
     return (
       <div>
           <Title className="title"/>
           <hr className="divi"/>
           <div className="components_container">
             <Bar />
-            <MyColorComponent />
+            <MyColorComponent userObj={userObj} />
           </div>
       </div>
     );

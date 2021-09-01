@@ -5,14 +5,14 @@ import Bar from "../components/Bar";
 import MyStroyComponent from "../components/MyStroyComponent";
 import "./Style.css";
 
-function MyStory() {
+function MyStory({userObj}) {
     return (
       <div>
           <Title className="title"/>
           <hr className="divi"/>
           <div className="components_container">
             <Bar />
-            <MyStroyComponent />
+            <MyStroyComponent userObj={userObj} />
           </div>
       </div>
     );
